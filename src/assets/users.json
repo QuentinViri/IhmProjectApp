@@ -1,0 +1,27 @@
+[
+  {
+    "firstname" : "Quentin",
+    "lastname" : "Viricel",
+    "email":"quentin.viricel@gmail.com",
+    "country" : "France",
+    "city":"Saint-Etienne",
+    "address":"118 rue Crozet Boussingault"
+  },
+  {
+    "firstname" : "Aymeric",
+    "lastname" : "Faure",
+    "email":"aymeric.faure@gmail.com",
+    "country" : "France",
+    "city":"Saint-Etienne",
+    "address":"12 rue Georges Teissier"
+  },
+  {
+    "firstname" : "Tom-Pierre",
+    "lastname" : "Bregnac",
+    "email":"tom.pierre.bregnac@gmail.com",
+    "country" : "France",
+    "city":"Saint-Etienne",
+    "address":"12 rue Georges Teissier"
+
+  }
+]

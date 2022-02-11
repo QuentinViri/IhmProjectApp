@@ -1,0 +1,13 @@
+<ngb-accordion [closeOthers]="true" xmlns="http://www.w3.org/1999/html">
+  <ngb-panel *ngFor="let product of products; let index = index" id="static-{{index}}">
+    <ng-template ngbPanelHeader let-opened="opened">
+      <div class="d-flex align-items-center justify-content-between">
+        <span>{{product.name}}</span>
+        <button ngbPanelToggle class="btn btn-primary" (click)="onSelect(product)">{{ opened ? '⌄' : '>'}}</button>
+      </div>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      <app-product-details [product]="selectedProduct"></app-product-details>
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>

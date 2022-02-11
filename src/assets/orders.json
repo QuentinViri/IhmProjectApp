@@ -1,0 +1,20 @@
+[
+  {
+    "reference" : "c39402",
+    "description" : "Samsung S22 Ultra",
+    "quantity" : "1",
+    "shipping_date":"16/02/2022"
+  },
+  {
+    "reference" : "c42309",
+    "description" : "Iphone 13 Pro max",
+    "quantity" : "2",
+    "shipping_date":"26/03/2022"
+  },
+  {
+    "reference" : "c10984",
+    "description" : "Pixel 6 Pro",
+    "quantity" : "1",
+    "shipping_date":"15/01/2022"
+  }
+]

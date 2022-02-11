@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "Samsung S22 Ultra",
+    "price" : "1200 €",
+    "description":"Le dernier smartphone de Samsung"
+  },
+  {
+    "name" : "Iphone 13 Pro max",
+    "price" : "1099 €",
+    "description":"Le meilleur smartphone d'Apple"
+  },
+  {
+    "name" : "Google Pixel 6 Pro",
+    "price" : "700 €",
+    "description":"Le meilleur rapport qualité prix"
+  }
+]

@@ -1,0 +1,13 @@
+<ngb-accordion [closeOthers]="true">
+  <ngb-panel  *ngFor=" let user of users; let index = index" id="static-{{index}}">
+    <ng-template ngbPanelHeader let-opened="opened">
+      <div class="d-flex align-items-center justify-content-between">
+        <span>{{user.firstname}} {{user.lastname}}</span>
+        <button ngbPanelToggle class="btn btn-primary" (click)="onSelect(user)">{{ opened ? '⌄' : '>' }}</button>
+      </div>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      <app-user-detail [user]="selectedUser"></app-user-detail>
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>

@@ -1,0 +1,29 @@
+<form class="text-center border border-light p-5">
+
+  <p class="h4 mb-4">Contact us</p>
+
+  <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+  <input type="email" [(ngModel)]="email" class="form-control mb-4" placeholder="E-mail">
+
+  <label>Subject</label>
+  <select class="browser-default custom-select mb-4">
+    <option value="" disabled>Choose option</option>
+    <option value="1" selected>Feedback</option>
+    <option value="2">Report a bug</option>
+    <option value="3">Feature request</option>
+    <option value="4">Feature request</option>
+  </select>
+
+  <div class="form-group">
+    <textarea class="form-control rounded-0"[(ngModel)]="message" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+  </div>
+
+
+  <button mdbBtn color="info" block="true" (click)="send()" type="submit">Send</button>
+
+</form>
+
+<div  *ngIf="showSuccessAlert" class="alert alert-success" role="alert">
+  Message envoyé
+</div>

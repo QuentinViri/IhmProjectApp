@@ -1,0 +1,21 @@
+<div *ngIf="order">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">Reference</th>
+      <th scope="col">Description</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Shipping_date</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>{{ order.reference }}</td>
+      <td>{{ order.description }}</td>
+      <td>{{ order.quantity}}</td>
+      <td>{{ order.shipping_date}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
